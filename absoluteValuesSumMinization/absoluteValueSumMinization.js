@@ -5,7 +5,7 @@ function absoluteValueSumMinization(numbers) {
     if (numbers.length % 2 == 0) {
         median = numbers[ numbers.length/2 - 1];
     } else {
-        median = (numbers[ Math.floor(numbers.length/2)]);
+        median = (numbers[ Math.floor(numbers.length/2) ]);
     }
 
     console.log(median);
